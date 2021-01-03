@@ -1,0 +1,252 @@
+body,html {
+  background: #007bff;
+  /*height:100%;*/
+  height: auto;
+}
+
+
+
+
+.table{
+    text-align: center;
+    background-color: #92bde7;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 30s;
+  font-family: Arial, Helvetica, sans-serif;
+  
+    color: blue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}
+    
+    
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    0%   {background-color: blue;}
+    25%  {background-color: whitesmoke;}
+    50%  {background-color: pink;}
+    75%  {background-color:turquoise;}
+    100% {background-color: hotpink;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   {background-color: blue;}
+    25%  {background-color: whitesmoke;}
+    50%  {background-color: pink;}
+    75%  {background-color: turquoise;}
+    100% {background-color: hotpink;}
+    
+  }
+  
+  .introduction{
+      background-color:black;
+      max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+    color: pink;
+  }
+  
+  
+  th, td { 
+   
+    text-align:center; 
+    border:1px solid black; 
+    padding:5px 
+  }
+  
+  
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  body{
+      /* background-image: url(../assets/Images/background-modern-computer-backgrounds-textures-306209-1024.jpg);
+    background:#92bde7; */
+    color:#485e74;
+    line-height:1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1em;
+  }
+  
+  .container{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+  }
+  
+  ul{
+    list-style: none;
+    padding:0;
+  }
+  
+  .brand{
+    text-align: center;
+  }
+  
+  .brand span{
+    color:#fff;
+  }
+  
+  .wrapper, .wrapper1{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+  }
+  
+  .wrapper, .wrapper1 > *{
+    padding: 1em;
+  }
+  
+  .company-info{
+    background:#c9e6ff;
+  }
+  
+  .company-info h3, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+  }
+  
+  .contact{
+    background:#f9feff;
+  }
+  
+  /* FORM STYLES */
+  .contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+  }
+  
+  .contact form label{
+    display:inline;
+  }
+  
+  .contact form p{
+    margin:0;
+  }
+  
+  .contact form .full{
+    grid-column: 1 / 3;
+  }
+  
+  .contact form button, .contact form input, .contact form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+  }
+  
+  .contact form button{
+    background:#c9e6ff;
+    border:0;
+    text-transform: uppercase;
+  }
+  .alert{
+    background-color: green;
+    text-align: center;
+    color: white;
+    display: none;
+  
+  }
+  
+  .contact form button:hover,.contact form button:focus{
+    background:#92bde7;
+    color:#fff;
+    outline:0;
+    transition: background-color 2s ease-out;
+  }
+  
+  /* LARGE SCREENS Mobile Responsive Code */
+  @media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .wrapper1{
+        display: grid;
+        
+    }
+  
+    .wrapper, .wrapper1 > *{
+      padding:2em;
+    }
+  
+    .company-info h3, .company-info ul, .brand{
+      text-align: left;
+    }
+  }
+  img{
+    height: 100px;
+    widows: 100px;
+
+  }
+
+  #submit{
+    
+        background-color: #92bde7;
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+      }
+      
+      #submit:hover {
+        background-color: blue;
+        color: white;
+      }
+
+  h3{
+    
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        text-align: center;
+        font-size: 180%;
+        padding: 15PX;
+      
+  }
+
+  li{
+      color: black;
+      font-size: 150%;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+  }
+  #contactForm{
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+
+  }
+
+  #Weather{
+      background-color: lightblue;
+      font-size: 120%;
+    font-weight: bold;
+    color: black;
+    
+  }
+
+  #News{
+    background-color: lightblue;
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+      
+  }
+
+  #Eatout{
+      background-color: lightblue;
+      font-size: 120%;
+    font-weight: bold;
+    color: black;
+  }
+
