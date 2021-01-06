@@ -41,8 +41,6 @@ function welcomeandshowWeather(name, zip) {
         })
     });
 
-
-
 }
 
 
